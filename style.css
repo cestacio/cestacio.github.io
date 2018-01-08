@@ -5,6 +5,7 @@
   overflow: hidden;
   background-color: white;
   position: fixed;
+  z-index: 1;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   color: #d29691;
@@ -20,24 +21,29 @@
   text-decoration: none;
 }
 
+a {
+  font-size: 15px;
+  color: #d29691;
+}
+
 h2 {
   font-family: "Lato", sans-serif;
-  padding: 0;
-  margin-top: 0px;
   font-size: 3em;
-  padding-top: 0%;
+  opacity: 0.75;
+}
+
+h3 {
+  opacity: 0.75;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   color: white;
+  font-size: 21px;
 }
 
 .titleColor {
   font-family: "Lato", sans-serif;
-  margin-top: 0px;
-  padding: 0;
-  padding-top: 0%;
   color: #d29691;
 }
 
@@ -48,22 +54,19 @@ body {
 
 .titleWhite {
   font-family: "Lato", sans-serif;
-  margin-top: 0px;
-  padding: 0;
-  padding-top: 0%;
   color: white;
 }
 
 .textWhite {
   font-family: "Open Sans", sans-serif;
   color: white;
-  font-size: 25px;
 }
 
 .pageOne {
-  background: url("http://images.unsplash.com/photo-1471229058801-75ee9a43ef35?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=4495ead4b990fc7af3e9c4dec79e556d")
-    center center fixed no-repeat;
-  opacity: 1;
+  background: url("http://images.unsplash.com/photo-1471229058801-75ee9a43ef35?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=4495ead4b990fc7af3e9c4dec79e556d");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed; need to figure out how to get this to work! */
   background-size: cover;
   padding-top: 50%;
   padding-bottom: 50%;
@@ -118,14 +121,11 @@ span.text-content span {
 }
 
 .blockBio {
-  opacity: 1;
-  background-color: none;
-  padding: 10px;
   width: 50%;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 10px;
   color: white;
+  opacity: 0.8;
 }
 
 .pageThree {
@@ -133,17 +133,16 @@ span.text-content span {
   background-size: cover;
   opacity: 1;
   padding-top: 5%;
-  padding-bottom: 25%;
-  padding: 100px 0;
+  padding-bottom: 5%;
+  padding: 75px;
 }
 
 .pageFour {
   background-color: white;
-  padding-top: 5%;
+  padding-top: 4%;
   padding-bottom: 2%;
 }
 
-/* Styling for icons */
 #twittericon,
 #githubicon,
 #linkedinicon,
@@ -151,7 +150,7 @@ span.text-content span {
 #mailicon {
   border-radius: 100%;
   border: solid 2px #d29691;
-  font-size: 25px;
+  font-size: 18px;
   padding: 8px;
   color: #d29691;
 }
