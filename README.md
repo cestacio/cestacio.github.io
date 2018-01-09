@@ -1,2 +1,2 @@
 # This is my personal site. 
-It's still under construction and will be updated with projects
+This page is still under construction and will be updated regularly. 
