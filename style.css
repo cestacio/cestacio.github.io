@@ -74,7 +74,8 @@ body {
   padding: 200px 0;
 }
 
-.pageTwo {
+.pageTwo,
+.pageFour {
   background-color: white;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -135,12 +136,6 @@ span.text-content span {
   padding-top: 5%;
   padding-bottom: 5%;
   padding: 100px 0;
-}
-
-.pageFour {
-  background-color: white;
-  padding-top: 4%;
-  padding-bottom: 2%;
 }
 
 #twittericon,
