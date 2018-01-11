@@ -17,7 +17,6 @@
 	display: block;
 	text-align: right;
 	padding: 14px 16px;
-	text-decoration: none;
 }
 
 a {
@@ -57,9 +56,6 @@ body {
 	background-position: center center;
 	/*background-attachment: fixed; need to figure out how to get this to work! */
 	background-size: cover;
-	padding-top: 50%;
-	padding-bottom: 50%;
-	color: #fff;
 	padding: 200px 0;
 }
 
