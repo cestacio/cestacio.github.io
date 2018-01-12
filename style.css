@@ -1,5 +1,4 @@
 /* The navigation bar */
-
 .navbar {
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -69,7 +68,6 @@ body {
 }
 
 /* this is for the portfolio. slightly modified from geekgirllife.com */
-
 ul.img-list {
 	list-style-type: none;
 	margin: 0;
@@ -86,7 +84,6 @@ ul.img-list li {
 }
 
 /* this is for the text over the images */
-
 span.text-content {
 	background: #777486;
 	color: white;
