@@ -1,4 +1,5 @@
 /* The navigation bar */
+
 .navbar {
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -6,14 +7,17 @@
 	background-color: white;
 	position: fixed;
 	z-index: 1;
-	top: 0; /* Position the navbar at the top of the page */
-	width: 100%; /* Full width */
+	top: 0;
+	/* Position the navbar at the top of the page */
+	width: 100%;
+	/* Full width */
 	color: #777486;
 }
 
 /* Links inside the navbar */
+
 .navbarLinks {
-	float: left;
+	float: right;
 	display: block;
 	text-align: right;
 	padding: 14px 16px;
@@ -54,19 +58,19 @@ body {
 	background: url("http://images.unsplash.com/photo-1471229058801-75ee9a43ef35?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=4495ead4b990fc7af3e9c4dec79e556d");
 	background-repeat: no-repeat;
 	background-position: center center;
-	/*background-attachment: fixed; need to figure out how to get this to work! */
+	background-attachment: fixed;
 	background-size: cover;
-	padding: 200px 0;
+	padding: 300px 0;
 }
 
-.pageTwo,
-.pageFour {
+.pageTwo {
 	background-color: white;
 	padding: 75px 0;
 	margin: 0 auto;
 }
 
 /* this is for the portfolio. slightly modified from geekgirllife.com */
+
 ul.img-list {
 	list-style-type: none;
 	margin: 0;
@@ -79,10 +83,11 @@ ul.img-list li {
 	height: 300px;
 	margin: 0 1em 1em 0;
 	position: relative;
-	width: 350px;
+	width: 300px;
 }
 
 /* this is for the text over the images */
+
 span.text-content {
 	background: #777486;
 	color: white;
@@ -118,6 +123,12 @@ span.text-content span {
 	padding: 75px 0;
 }
 
+.pageFour {
+	background-color: #777486;
+	padding: 50px 10px;
+	margin: 0 auto;
+}
+
 #twittericon,
 #githubicon,
 #linkedinicon,
@@ -127,5 +138,5 @@ span.text-content span {
 	border: solid 2px #d29691;
 	font-size: 18px;
 	padding: 8px;
-	color: #777486;
+	color: #d29691;
 }
