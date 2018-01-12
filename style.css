@@ -119,14 +119,22 @@ span.text-content span {
 	padding: 75px 0;
 }
 
-#twittericon,
-#githubicon,
-#linkedinicon,
-#texticon,
-#mailicon {
+.btn {
 	border-radius: 100%;
 	border: solid 2px #d29691;
-	font-size: 18px;
-	padding: 8px;
+	font-size: 1em;
+	padding: 0.5em;
 	color: #777486;
+	width: 50px;
+	transition: background-color 0.5s, color 0.5s, border-color 0.5s,
+		border-radius 0.5s ease-in-out;
+	opacity: 0.8;
+}
+
+.btn:hover {
+	border-color: solid 2px #777486;
+	background-color: #777486;
+	color: #d29691;
+	border-radius: 200%;
+	opacity: 1;
 }
