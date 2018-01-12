@@ -7,15 +7,12 @@
 	background-color: white;
 	position: fixed;
 	z-index: 1;
-	top: 0;
-	/* Position the navbar at the top of the page */
-	width: 100%;
-	/* Full width */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
 	color: #777486;
 }
 
 /* Links inside the navbar */
-
 .navbarLinks {
 	float: right;
 	display: block;
@@ -63,9 +60,11 @@ body {
 	padding: 300px 0;
 }
 
-.pageTwo {
+.pageTwo,
+.pageFour {
 	background-color: white;
-	padding: 75px 0;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	margin: 0 auto;
 }
 
@@ -83,7 +82,7 @@ ul.img-list li {
 	height: 300px;
 	margin: 0 1em 1em 0;
 	position: relative;
-	width: 300px;
+	width: 350px;
 }
 
 /* this is for the text over the images */
@@ -123,12 +122,6 @@ span.text-content span {
 	padding: 75px 0;
 }
 
-.pageFour {
-	background-color: #777486;
-	padding: 50px 10px;
-	margin: 0 auto;
-}
-
 #twittericon,
 #githubicon,
 #linkedinicon,
@@ -138,5 +131,5 @@ span.text-content span {
 	border: solid 2px #d29691;
 	font-size: 18px;
 	padding: 8px;
-	color: #d29691;
+	color: #777486;
 }
