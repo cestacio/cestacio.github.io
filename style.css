@@ -119,6 +119,10 @@ span.text-content span {
 	padding: 75px 0;
 }
 
+p {
+	text-align: justify;
+}
+
 .btn {
 	border-radius: 100%;
 	border: solid 2px #d29691;
